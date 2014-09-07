@@ -51,6 +51,8 @@ print "<body>"
 conn = sqlite3.connect('ceton.db')
 c = conn.cursor()
 
+try: os.mkdir(images)
+except: pass
 filename = []
 filename.append(plot_attribute(c, "temperature", "Tuner Temperature", "Temp (C)"))
 print '<img src="' + filename[-1] + '">'
