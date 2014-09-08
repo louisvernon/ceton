@@ -3,6 +3,10 @@ Documentation
 
 A simple utility for logging attributes from your infiniTV Eth. 
 
+Dependencies:
+	python >= 2.5
+	matplotlib
+
 Usage:
 	python server.py ip log_rate
 
