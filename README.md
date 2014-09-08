@@ -4,7 +4,7 @@ Documentation
 A simple utility for logging attributes from your infiniTV Eth. 
 
 Dependencies:
-	python >= 2.5
+	python >= 2.5  
 	matplotlib
 
 Usage:
