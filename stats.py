@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-import numpy
 import matplotlib as mpl
 mpl.use('Agg')
 
