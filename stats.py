@@ -34,8 +34,6 @@ def plot_attribute(c, attribute, title, ylabel):
 	plt.legend(ncol=3,prop={'size':8})
 
 	filename = "images/" + str(uuid.uuid4()) + ".png"
-	try:os.mkdir("images")
-	except: pass
 	fig.savefig(filename)
 	plt.clf()
 	return filename
